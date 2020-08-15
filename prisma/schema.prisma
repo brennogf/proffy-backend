@@ -1,0 +1,44 @@
+datasource postgresql {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["transactionApi"]
+}
+
+model users {
+  id          Int           @id @default(autoincrement())
+  name        String
+  avatar      String
+  whatsapp    String
+  bio         String
+  classes     classes[]
+  connections connections[]
+}
+
+model classes {
+  id             Int             @id @default(autoincrement())
+  subject        String
+  cost           Int
+  user           users           @relation(fields: [usersId], references: [id])
+  class_schedule classSchedule[]
+  usersId        Int
+}
+
+model connections {
+  id         Int      @id @default(autoincrement())
+  user       users    @relation(fields: [usersId], references: [id])
+  created_at DateTime @default(now())
+  usersId    Int
+}
+
+model classSchedule {
+  id        Int     @id @default(autoincrement())
+  week_day  Int
+  from      Int
+  to        Int
+  classe    classes @relation(fields: [classesId], references: [id])
+  classesId Int
+}
