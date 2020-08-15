@@ -5,7 +5,7 @@
 </h1>
 
 <h4 align="center">
-    Online study platform.
+    Connection app between students and teachers.
 </h4>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/brennogf/proffy-backend.svg">
