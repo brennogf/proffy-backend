@@ -83,7 +83,7 @@ This project is under the MIT license. See the [LICENSE](https://github.com/bren
 
 ---
 
-Made with ♥ by Brenno Givigier :wave: [Get in touch!](https://www.linkedin.com/in/brennogf/)
+Made with ♥ by Brenno Givigier :wave: [Get in touch!](https://www.linkedin.com/in/brenno-givigier/)
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
