@@ -5,7 +5,7 @@
 </h1>
 
 <h4 align="center">
-    Connection app between students and teachers.
+    Aplicativo de conexão entre alunos e professores.
 </h4>
 <p align="center">
   <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/brennogf/proffy-backend.svg">
@@ -29,9 +29,9 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">License</a>
+  <a href="#rocket-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">Licença</a>
 </p>
 
 
@@ -43,9 +43,9 @@
 
 -  [Video](https://drive.google.com/file/d/1B5plhd-a02FPMTWXaHI7Hi2Z0e2sccuS/preview)
 
-## :rocket: Technologies
+## :rocket: Tecnologias
 
-This project was developed at the [NLW 2](https://nextlevelweek.com/) with the following technologies:
+Este projeto foi desenvolvido no [NLW 2](https://nextlevelweek.com/) com as seguintes tecnologias:
 
 -  [NodeJS](https://nodejs.org/en/)
 -  [TypeScript](https://www.typescriptlang.org/)
@@ -55,35 +55,35 @@ This project was developed at the [NLW 2](https://nextlevelweek.com/) with the f
 -  [Concurrently](https://www.npmjs.com/package/concurrently)
 -  [VS Code][vc] with [EditorConfig][vceditconfig], [ESLint][vceslint] and [Prettier][vcprettier]
 
-## :information_source: How To Use
+## :information_source: Como usar
 
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v12.18][nodejs] or higher + [Yarn v1.22.4][yarn] or higher installed on your computer. From your command line:
+Para clonar e executar este aplicativo, você precisará [Git](https://git-scm.com), [Node.js v12.18][nodejs] ou superior + [Yarn v1.22.4][yarn] ou superior instalado em seu computador. Na sua linha de comando:
 
 ```bash
-# Create a directory
+# Crie um diretório
 $ mkdir proffy
 $ cd proffy
 
-# Clone this repository
+# Clonar este repositório
 $ git clone https://github.com/brennogf/proffy-frontend frontend
 $ git clone https://github.com/brennogf/proffy-backend backend
 
-# Go into the repository and install dependencies
+# Entre no repositório e instale as dependências
 $ cd backend
 $ yarn
 $ cd ../frontend
 $ yarn
 
-# Run the app
+# Execute o aplicativo
 $ yarn dev
 ```
 
-## :memo: License
-This project is under the MIT license. See the [LICENSE](https://github.com/brennogf/proffy-backend/blob/master/LICENSE) for more information.
+## :memo: Licença
+Este projeto está sob licença do MIT. Veja o [LICENSE](https://github.com/brennogf/proffy-backend/blob/master/LICENSE) para mais informações.
 
 ---
 
-Made with ♥ by Brenno Givigier :wave: [Get in touch!](https://www.linkedin.com/in/brenno-givigier/)
+Feito com ♥ por Brenno Givigier :wave: [Get in touch!](https://www.linkedin.com/in/brenno-givigier/)
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
