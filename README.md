@@ -29,13 +29,6 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#information_source-how-to-use">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-license">Licença</a>
-</p>
-
-
-<p align="center">
  <img src="https://i.ibb.co/HHGSY11/proffy.png">
 </p>
 
@@ -53,7 +46,7 @@ Este projeto foi desenvolvido no [NLW 2](https://nextlevelweek.com/) com as segu
 -  [Prisma](https://www.prisma.io/)
 -  [Cors](https://github.com/expressjs/cors)
 -  [Concurrently](https://www.npmjs.com/package/concurrently)
--  [VS Code][vc] with [EditorConfig][vceditconfig], [ESLint][vceslint] and [Prettier][vcprettier]
+-  [VS Code][vc] com [EditorConfig][vceditconfig], [ESLint][vceslint] e [Prettier][vcprettier]
 
 ## :information_source: Como usar
 
@@ -83,7 +76,7 @@ Este projeto está sob licença do MIT. Veja o [LICENSE](https://github.com/bren
 
 ---
 
-Feito com ♥ por Brenno Givigier :wave: [Get in touch!](https://www.linkedin.com/in/brenno-givigier/)
+Feito com ♥ por Brenno Givigier :wave: [Entre em contato!](https://www.linkedin.com/in/brenno-givigier/)
 
 [nodejs]: https://nodejs.org/
 [yarn]: https://yarnpkg.com/
